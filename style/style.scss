@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.btn_phone {
+  display: flex; gap: 3px;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+  color:#9ea4a6 ;
+  margin-left: 70%;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  &:hover{
+    color: #00a3c9;
+  }
+}
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.4);
+    transition: all .5s ease-in-out;
+    width: 100%;
+    height: 100vh;
+}
+.hidden{
+    display: none;
+}
+.call{
+    line-height: 40px;
+    width: 35%;
+    margin-top: 15%;
+    border-radius: 15px ;
+    margin-left: 35%;
+    background-color: #ffffff;
+    padding: 20px ;
+    position:absolute;
+    .call_tittle{
+        display: flex;
+    }
+    .call_main{
+        .call_list{
+            list-style-type: none;
+            margin-top: 5%;
+            
+            color: #00a3c9;  
+            
+         .call_icons_list{
+           color: #00a3c9;
+           a{
+            color: #00a3c9;
+           }
+           
+
+          i{
+            margin: 0px 10px;
+            cursor: pointer;
+
+          }
+         }
+        }
+    }
+    .btn_close{
+        cursor: pointer;
+        margin-left: 38%;
+        margin-top: 2px;
+    
+    }
+    hr{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
